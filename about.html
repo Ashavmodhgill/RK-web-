@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+    
+
+       
+        .navbar{
+    /* position: fixed; 
+  top: 0;  */
+  width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color:#546980;
+}
+.nav-logo{
+    
+    background-image:url(Untitled\ design\ \(1\).png);
+    height: 95%;
+    width: 90px;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+
+}
+
+
+.serach-bar{
+    margin-left: 300px;
+}
+
+.search-box{
+    text-align: center;
+    height: 30px;
+    width:400px;
+    border: 0.5px solid black;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+}
+
+.search-button{
+    margin-right: 0%;
+    height: 35px;
+    width:50px;
+    color:black;
+    background-color: #fcfbf7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a {
+  color: white;
+  margin-left: 150px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Smooth transition for the color change */
+}
+
+a:hover {
+  color: #dbdfe3;
+  text-decoration: underline;
+}
+
+        /* Main Content Sections */
+        main {
+            padding-top: 20px;
+        }
+
+        section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        section:nth-of-type(even) {
+            background-color: #f0f0f0;
+        }
+
+        section p {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Hero Section - About Page Specific */
+        .hero-about {
+           
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 20px;
+    height: 400px;
+    background-image: url(panel3.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+        
+
+        .hero-about h2 {
+            color: #FF033E ;
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .hero-about p {
+            color: #eee;
+            font-size: 1.3em;
+            max-width: 700px;
+            margin: 0 auto;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+
+        /* Our Values Section */
+        .our-values ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .our-values ul li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            flex: 1 1 calc(33% - 40px); /* Three items per row, with gap */
+            max-width: 350px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .our-values ul li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .our-values ul li strong {
+            color:  #FF033E;
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+       footer{ 
+      margin-top: 300px;
+      height: 510px;
+      width: 100%;
+       background-color: #546980;
+
+}
+
+.footerContant1{
+    color:  #FF033E;
+    display:  flex;
+    
+}
+
+.footerTag-line{
+    color: #FF033E;
+     font-family: 'Inter', sans-serif;
+    /* font-family: "Georgia", serif; */
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footerTag-linediv{
+    margin-left: 15px;
+}
+.footerTag-linediv p{
+    
+     font-style: italic;
+   color: white;
+   font-size: 20px;
+   font-weight: lighter;
+   text-align: center;
+}
+
+.footerdelivary{
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    height: 50px;
+    width:  220px;  
+    background-color: #FF033E;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.personalinfo{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.personalinfo p{
+    margin-left: 54px;
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.personalinfo a{
+    margin-left: 50px;
+}
+.lineseprate-footer2{
+    margin-top: 45px;
+    height: 120px;
+    width: 0.8px;
+    background-color: white;
+    margin-left: 70px;
+}
+.footeranchor-tag {
+  background-image: linear-gradient(
+    to right,
+    #FF033E,
+    #FF033E 50%,
+    #000 50%
+
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:hover {
+ background-position: 0;
+}
+
+.footeranchor-tag:hover::before{
+  width: 100%;
+}
+
+
+.aboutusfooter{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.aboutusfooter p{
+    
+    color: white;
+   
+    font-size: 20px;
+}
+
+.footerform{
+   
+   margin-top: 150px;
+    margin-left: 15px;
+}
+.subscribe-text{
+    color: white;
+     font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.footerContant2{
+    display: flex;
+}
+.footeremail-input{
+    text-align: center;
+    justify-content: center;
+    color:white;
+    margin-top: 40px;
+    height: 35px;
+    width: 300px;
+
+    background-color:  #546980;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.footeremail-input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.subscribe-button{
+    margin-top: 50px;
+  background-color: rgb(236, 233, 233);
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 35px;
+    font-size: 20px;
+    
+    width: 100px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    
+}
+
+
+.subscribe-button{
+  
+  border: 0.1px solid black;
+    /* border: none; */
+  
+    cursor: pointer;
+  color: black;
+    background-color:  #f26989; 
+   
+    transition: background-color 0.3s ease;
+}
+
+
+.subscribe-button:hover {
+    background-color:   #FF033E; 
+    color: white; 
+ 
+
+}
+
+.socialmediahandles{
+    margin-top: 50px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 240px;
+    margin-left: 660px;
+    height: 70px;
+    width: 380px;
+   
+}
+.socailmedia{
+    margin-right: 50px;
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.socailmedia {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.socailmedia{
+    margin-right: 50px;
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.twitterfooter{
+    background-image: url(771367_circle_facebook_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+.instagramefooter{
+    background-image: url(771365_circle_logo_media_network_social_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.facbookfooter{
+     background-image: url(1164349_circle_instagram_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.lastfooterspace{
+    height: 100px;
+    width: 100%;
+    background-color: #fcfbf7;
+}
+
+
+
+    </style>
+</head>
+<body>
+   <div class="navbar">
+<div class="nav-logo border">    
+</div>
+<div class="serach-bar">
+    <input class="search-box" type="text" placeholder="Search for taste">
+    <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i> </button>
+
+</div>
+<div class="tags-search">
+    <ul class="anchor1"> 
+      <a href="index.html">Home</a>
+         <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+    </ul>
+</div>
+
+</div>
+    <main>
+        <section class="hero-about">
+            <div class="container">
+                <h2>Discover the RK</h2>
+                <p>Where every dish tells a story of passion, tradition, and culinary excellence.</p>
+            </div>
+        </section>
+
+        <section class="our-story">
+            <div class="container">
+                <h3>Our Story</h3>
+                <p>RK Begin with a simple dream: to create a place where food isn't just sustenance, but an experience. Founded by Two brothers Balwinder and Rajinder Sharma, Both Were passionate about making vibrant Indian Sweets and dishes From trheir  our journey started in a small kitchen in 1989 with a family recipe passed down through generations We believe in the power of fresh, locally sourced ingredients and the magic that happens when they're combined with skill and heart.</p>
+                <p>Every plate served at RK is a testament to our commitment to quality and our desire to bring joy to your table. From our signature [Smosa chart ] to our seasonal specials, we invite you to savor the dedication in every bite.</p>
+            </div>
+        </section>
+
+        <section class="our-mission">
+            <div class="container">
+                <h3>Our Mission</h3>
+                <p>To delight our guests with an unforgettable dining experience, combining innovative cuisine with warm, impeccable service in an inviting atmosphere. We strive to be a culinary landmark, celebrated for our creativity, consistency, and community spirit.</p>
+            </div>
+        </section>
+
+        <section class="our-values">
+            <div class="container">
+                <h3>Our Values</h3>
+                <ul>
+                    <li><strong>Quality:</strong> Sourcing the finest ingredients and preparing them with precision.</li>
+                    <li><strong>Passion:</strong> Infusing every dish with love and dedication.</li>
+                    <li><strong>Hospitality:</strong> Creating a welcoming and memorable experience for every guest.</li>
+                    <li><strong>Innovation:</strong> Constantly exploring new flavors and culinary techniques.</li>
+                    <li><strong>Community:</strong> Supporting local producers and giving back to our neighborhood.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+<footer>
+    <div class="footerContant1">
+    <div class="footerTag-linediv"><h1 class="footerTag-line"> THE FLAVOUR FORGE</h1>
+      <P> Your one-stop destination for authentic Punjabi flavors.</P>
+        <div class="footerdelivary">Order Now</div>
+      
+    </div>
+    <div class="lineseprate-footer1"></div>
+     <div class="personalinfo">
+      <h2><a href="#" class="footeranchor-tag">Personal Info</a></h2>
+      <p> Mail: Rksweets@gamil</p>
+      <p>Phone: +91 890875007</p>
+      <p>Address:  Tarn Taran, Punjab, India</p>
+
+    </div>
+    <div class="lineseprate-footer2"></div>
+    <div class="aboutusfooter">
+      <h2><a href="#" class="footeranchor-tag">About Us</a></h2>
+      <p> We deliver India’s favorite fast food and sweets—hot,</p>
+        <p> fresh, and full of flavor.</p>
+        <p>From street-style snacks to classic desserts, </p>
+         <p>your cravings are just a click away.</p>
+    </div>
+
+    </div>
+   
+ <div class="footerContant2">
+  <div class="footerform">
+    <form class="mailservice">
+      <h2 class="subscribe-text">Signup For Updates </h2> 
+    <a href="login.html"><button type="button" class="subscribe-button">LOGIN</button></a>
+    </form>
+
+  </div> 
+
+  <div class="socialmediahandles">
+<div class="twitterfooter socailmedia"></div>
+    <div class="instagramefooter socailmedia"></div>
+    <div class="facbookfooter socailmedia"></div>
+  </div>
+   </div>
+  </footer>
+  <div class="lastfooterspace"> </div>
+
+ 
+    
+</body>
+</html>

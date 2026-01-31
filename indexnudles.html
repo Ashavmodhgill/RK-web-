@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chartpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <link rel="stylesheet" href="stylechart.css">
+</head>
+<body>
+    <div class="navbar">
+<div class="nav-logo border">    
+</div>
+<div class="serach-bar">
+    <input class="search-box" type="text" placeholder="Search for taste">
+    <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i> </button>
+
+</div>
+<div class="tags-search">
+    <ul class="anchor1"> 
+        <a href="index.html">Home</a>
+         <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+    </ul>
+</div>
+
+</div>
+<div class="div-for-tagline">
+  <h1 class="say-yes">Say Yes!</h1>
+    <h1 class="to-tagline">to</h1>
+   <h1 class="cravings-tagline">cravings</h1>
+    
+</div>
+<div class="chartpage1">
+  
+
+ <div class="chart-product-img1">
+    <div class="product1-imag-nudles "></div>
+    
+
+    
+ </div>
+
+ <div class="text-belowchart-productwrapper">
+
+<h1 class="text-belowchart-product">Nudles,Orignality, Asia,India </h1>
+ <div class="siderating-product"><h3 class="rating-on-product">4.2k</h3></div>
+ </div>
+
+ <div class="chart-pricetext">
+    <p  class="chart-ptag-price">₹ 100</p>
+ </div>
+
+</div>
+
+<!-- here i am starting i thing when someone hower on chart details than a note appears -->
+
+
+  <div class="tracking-for-chart cartbelowtracker">
+     <div class="freedelivery-cart cartbelowtracker hover-div-new">
+  <p>Free Delivery</p>
+  
+  <div class="hover-note" id="deliveryNote">
+    <p>Congratulations! You qualify for Free Shipping on this order. This offer is automatically applied at checkout.</p>
+    <button class="close-btn" onclick="closeNote('deliveryNote')">✖</button>
+  </div>
+</div>
+  
+
+
+<div class="delivery-time cartbelowtracker hover-div-new">
+  <p>30-45Min</p>
+  
+  <div class="hover-note" id="timeNote">
+    <p>This is the estimated delivery time for your location. Time may vary slightly during peak hours.</p>
+    <button class="close-btn" onclick="closeNote('timeNote')">✖</button>
+  </div>
+</div>
+
+
+
+   <div class="discount-chart hover-div-new">
+  <p>-3%</p>
+  
+  <div class="hover-note" id="discountNote">
+    <p>Your current order qualifies for a 3% instant discount applied automatically at checkout.</p>
+    <button class="close-btn" onclick="closeNote('discountNote')">✖</button>
+  </div>
+</div>
+
+
+
+</div>
+  </div>
+   
+<script>// Accepts the ID of the note element you want to close (e.g., 'deliveryNote')
+function closeNote(noteId) {
+  const note = document.getElementById(noteId);
+
+  // 1. Add the 'hide-note' class to instantly hide the element via CSS.
+  note.classList.add('hide-note');
+
+  // 2. Set a timeout to remove the 'hide-note' class after the transition time (0.3s).
+  // This allows the note to reappear correctly on the *next* hover event.
+  setTimeout(() => {
+    note.classList.remove('hide-note');
+  }, 300); 
+}
+</script>
+
+
+<div class="wrapperfordescription-about-product"><h1 class="description-about-product"> Derscription: </h1></div>
+<div class="read-more-container">
+  <p class="read-more-text" id="myParagraph">
+  Noodles are more than just a dish—they’re comfort woven into strands of flavor. These long, silky threads are crafted from flour and water, then boiled or stir-fried to soak up spices, sauces, and vegetables that bring them to life. Whether served steaming hot in street-side bowls or tossed elegantly at festive dinners, noodles carry with them the joy of sharing and the warmth of togetherness. Their versatile texture and endless variations make them a global favorite, often outshining more elaborate meals. One bite, and you’re carried into a world where simplicity twirls into pure indulgence.Noodles are more than just a dish—they’re comfort woven into strands of flavor. These long, silky threads are crafted from flour and water, then boiled or stir-fried to soak up spices, sauces, and vegetables that bring them to life. Whether served steaming hot in street-side bowls or tossed elegantly at festive dinners, noodles carry with them the joy of sharing and the warmth of togetherness. Their versatile texture and endless variations make them a global favorite, often outshining more elaborate meals. One bite, and you’re carried into a world where simplicity twirls into pure indulgence.
+  </p>
+  <button class="read-more-toggle" onclick="toggleReadMore('myParagraph', this)">
+    <span class="toggle-text">See More</span>
+  </button>
+</div>
+<script>function toggleReadMore(paragraphId, buttonElement) {
+  const paragraph = document.getElementById(paragraphId);
+  const toggleTextSpan = buttonElement.querySelector('.toggle-text');
+
+  // Check if the 'read-more-active' class is currently on the paragraph
+  const isExpanded = paragraph.classList.contains('read-more-active');
+
+  if (isExpanded) {
+    // If it is expanded, collapse it (remove the active class)
+    paragraph.classList.remove('read-more-active');
+    toggleTextSpan.textContent = 'See More';
+  } else {
+    // If it is collapsed, expand it (add the active class)
+    paragraph.classList.add('read-more-active');
+    toggleTextSpan.textContent = 'See Less';
+  }
+}
+</script>
+
+<!-- html of addcart button -->
+<div class="button-group-container">
+        <!-- Quantity Selector Button Group -->
+        <div class="quantity-selector">
+            <button class="quantity-btn" onclick="updateQuantity(-1)">&minus;</button>
+            <span id="quantity-value" class="quantity-display">1</span>
+            <button class="quantity-btn" onclick="updateQuantity(1)">&plus;</button>
+        </div>
+
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">
+            <!-- Plus Sign SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            Add to Cart
+        </button>
+    </div>
+
+    <script>
+        let quantity = 1;
+
+        function updateQuantity(delta) {
+            quantity += delta;
+            // Ensure quantity doesn't drop below 1
+            if (quantity < 1) {
+                quantity = 1;
+            }
+            document.getElementById('quantity-value').textContent = quantity;
+        }
+    </script>
+
+
+  <!-- footerpart -->
+
+  <footer>
+    <div class="footerContant1">
+    <div class="footerTag-linediv"><h1 class="footerTag-line"> THE FLAVOUR FORGE</h1>
+      <P> Your one-stop destination for authentic Punjabi flavors.</P>
+        <div class="footerdelivary">Order Now</div>
+      
+    </div>
+    <div class="lineseprate-footer1"></div>
+     <div class="personalinfo">
+      <h2><a href="#" class="footeranchor-tag">Personal Info</a></h2>
+      <p> Mail: Rksweets@gamil</p>
+      <p>Phone: +91 890875007</p>
+      <p>Address:  Tarn Taran, Punjab, India</p>
+
+    </div>
+    <div class="lineseprate-footer2"></div>
+    <div class="aboutusfooter">
+      <h2><a href="#" class="footeranchor-tag">About Us</a></h2>
+      <p> We deliver India’s favorite fast food and sweets—hot,</p>
+        <p> fresh, and full of flavor.</p>
+        <p>From street-style snacks to classic desserts, </p>
+         <p>your cravings are just a click away.</p>
+    </div>
+
+    </div>
+   
+ <div class="footerContant2">
+  <div class="footerform">
+    <form class="mailservice">
+      <h2 class="subscribe-text">Signup For Updates </h2> 
+   <a href="login.html"><button type="button" class="subscribe-button">LOGIN</button></a>
+    </form>
+
+  </div> 
+
+  <div class="socialmediahandles">
+    <div class="twitterfooter socailmedia"></div>
+    <div class="instagramefooter socailmedia"></div>
+    <div class="facbookfooter socailmedia"></div>
+  </div>
+   </div>
+  </footer>
+  <div class="lastfooterspace"> </div>
+
+ 
+
+</body>
+</html>

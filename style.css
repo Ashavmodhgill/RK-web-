@@ -1,0 +1,1162 @@
+
+*{
+    color: black;
+
+}
+
+.navbar{
+    /* position: fixed; 
+  top: 0;  */
+  width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color:#546980;
+}
+.nav-logo{
+    
+    background-image:url(Untitled\ design\ \(1\).png);
+    height: 95%;
+    width: 90px;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+
+}
+
+
+.serach-bar{
+    margin-left: 300px;
+}
+
+.search-box{
+    text-align: center;
+    height: 30px;
+    width:400px;
+    border: 0.5px solid black;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+}
+
+.search-button{
+    margin-right: 0%;
+    height: 35px;
+    width:50px;
+    color:black;
+    background-color: #fcfbf7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+a {
+  color: white;
+  margin-left: 150px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Smooth transition for the color change */
+}
+
+a:hover {
+  color: #e6e8ea;
+  text-decoration: underline;
+}
+
+.front-photo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 20px;
+    height: 500px;
+    background-image: url(panel3.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.line-1{
+    width:80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color:black;
+    text-align: center;
+    height:30px;
+    background-color:#96a0aa;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.box {
+    padding-bottom: 10px;
+    padding-top:35px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    height: 306px;
+    width:  350px;
+    background-color: #E9E9E9;
+    /* border: 2px solid black; */
+}
+
+ .line-seprate{
+    margin-left: 28px;
+    height: 100%;
+    width:10px;
+     background-color:white; 
+ }
+
+
+.boxes-image {
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    background-color: #E9E9E9;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    margin-top: 50px;
+}
+.imagecontent-cart{
+    color: black;
+}
+.outzoom{
+ margin-top: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 81px;
+
+    /* background-color:black; */
+}
+ .outzoom:hover .img{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+ }
+
+
+.imagecontent-cart{
+    font-size: larger;
+    font-weight: 400;
+    /* text-align: center; */
+    color: black;
+    margin-left: 0px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+}
+.percentoff{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+
+.img{
+   margin-bottom: 10px;
+    height: 210px;
+    width: 306px;
+    background-color: #546980;
+    background-image: url(rasgulla2.0.png);
+    background-size: cover;
+   
+}
+
+
+
+
+.img2{
+    margin-bottom: 10px;
+    height: 210px;
+    width: 306px;
+    background-color: #546980;
+    background-image: url(gullabjamun2.0.png);
+    background-size: cover;
+}
+
+.img3{
+    background-color: #546980;
+    background-image: url(milkcake.jpg);
+    background-size: cover;
+}
+
+.img4{
+    background-color: #546980;
+    background-image: url(jalebi.jpg);
+    background-size: cover;
+}
+.img5{
+    background-color: #546980;
+    background-image: url(chocalate.webp);
+    background-size: cover;
+}
+.img6{
+    background-color: #546980;
+    background-image: url(coconut\ barfi.webp);
+    background-size: cover;
+}
+.img7{
+
+    
+    background-color: #546980;
+    background-image: url(kajukatli2.0.png);
+    background-size: cover;
+}
+.img8{
+    background-color: #546980;
+    background-image: url(simplebarfi3.0.png);
+    background-size: cover;
+}
+
+.text-top{
+    width: 100px;
+    height:10px;
+    background-color: #546980;
+}
+
+.line2{
+    margin-top:200px;
+   
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color:black;
+    text-align: center;
+    height:30px;
+    background-color:#E9E9E9;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+
+.fast-food{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 400px;
+    background-color: #546980;
+    /* padding-top: 30px; */
+
+}
+
+.side-text{
+    margin-top: 0px;
+    margin-left: 8px;
+    height: 340px;
+    width: 500px;
+    padding-top: 20px;
+    background-color: #546980;
+}
+.bite{
+   
+    font-size: 50px;
+    font-weight: bolder;
+    color: #303030;
+    margin-left: 20px;
+
+ }
+
+ .bite:hover{
+    color: red;
+    transition: color 0.5s ease;
+}
+.into{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #303030;
+    margin-left: 60px;
+}
+.into:hover{
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.nostalgia{
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 80px;
+}
+
+.nostalgia:hover{
+    color: red;
+    transition: color 0.5s ease;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width:200px;
+ 
+  background: #f0f0f2;
+} */
+
+.fast-food{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 400px;
+    background-color: #546980;
+    /* padding-top: 30px; */
+
+}
+.slider {
+  height: 100%;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__nav {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  outline: 6px solid #ccc;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.slider__nav:checked {
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -100%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -200%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -300%;
+}
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.slider__contents {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__image {
+  font-size: 2.7rem;
+      color: #2196F3;
+}
+.slider__caption {
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.slider__txt {
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+ @keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+} 
+
+
+
+.raper{
+    margin-top: 3px;
+     padding-top: 10px;
+    
+}
+.imageslide1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 80%;
+    width: 100%;
+    background-color: #6e3939;
+
+}
+.sliderphotocontant{
+    width:100%;
+    height: 30%;
+    background-color:#E9E9E9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.sidepic{
+    border: solid black 1.5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+   margin-top: 90px;
+    height: 330PX;
+    width: 280px;
+    background-color: #708499 ;
+}
+
+
+.imageslide1{
+  border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    height: 80%;
+    width: 100%;
+    background-image: url(samosa122.jpeg);
+    background-size: cover;
+     background-repeat: no-repeat;
+
+}
+.imageslide2{
+      border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height:80%;
+    width: 100%;
+    background-image: url(nudles.webp);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.imageslide3{
+      border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height:80%;
+    width: 100%;
+    background-image: url(burger2.webp);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.imageslide4{
+       border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height:80%;
+    width: 100%;
+    color: red
+}
+.contantlideseemore{
+     border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid rgb(230, 224, 224);
+    height:100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+ 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.SeemoreforFastFoodbutton{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 20px;
+  
+    border: none;
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 10px;
+   height:40px;
+    width: 100px;
+   
+    
+}
+
+
+.smosacontant{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height:30px;
+ 
+}
+.discountforfastfood{
+    color:red;
+    
+}
+.lowerslideprice{
+    display: flex;
+    margin-bottom:20px;
+    justify-content: center;
+}
+.percentagesmosa{
+    margin-top: 4px;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    display: inline-block;
+} 
+.priceof-smosa{
+     margin-top: 4px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.last-outlin{
+    height:17.3px;
+    background-color: #546980;
+}
+
+.abovephoto-line{
+ text-align: center;
+    height:20px;
+    width:280px;
+    background-color: #E9E9E9;
+
+     
+}
+
+
+
+
+
+
+.Food-tagheadingwrapper{
+    text-align: center;
+    justify-content: center;
+   margin-left: 10%;
+    height: 50px;
+    width: 600px;
+    background-color: #FF033E;
+   border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+
+.Food-tagheading{
+    padding-top: 5px;
+    color: white;
+     margin-top: 130px;
+   
+}
+
+
+.text-culture{
+    border: 0.7px solid black;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+    width: 70%;
+    background-color: #E9E9E9;
+}
+
+.text-culture {
+  background: white;
+  margin: auto;
+  margin-top: 5%;
+  max-width: 30%;
+  padding: 20px 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.text-culture:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid red;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.myBtn {
+  border:none;
+  background: red;
+  color: #f0f0f2;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.myBtn:hover {
+  border-right: 2px solid black;
+} 
+
+h1 {
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #ffffff;}
+    25%  {border-left: 3px solid #ffe6e6;}
+    50%  {border-left: 4px solid #ff8080;}
+    100% {border-left: 5px solid #ff0000;}
+}
+
+.head-text-line{
+   padding-top: 30px;
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+   font-weight: bolder;
+}
+
+.outer-cover{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#myBtn{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    border:1px solid transparent;
+    text-decoration: none;
+    color: rgb(245, 69, 6)
+}
+
+
+.logo-textpic{
+         border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top:20px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.piclogo{
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    /* background-color: #6e3939; */
+    /* background-image: url(Untitled\ design\ \(1\).png); */
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+
+.outerrappforfastfood{
+    margin-top: 80px;
+    margin-left:50px;
+}
+
+.logo-textpic{
+    margin-top: 80px;
+    margin-left:50px;
+}
+
+
+.sweettextupperWrap{
+    margin-left: 30%;
+    height: 50px;
+    width: 600px;
+    background-color: #FF033E;
+    text-align: center;
+    justify-content: center;
+     border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+
+.sweettextupper{
+    padding-top: 5px;
+    color: white;
+     
+}
+
+.icon-white{
+    color: white;
+    font-size: 10px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.sweet-categorey{
+    
+    display:flex;
+
+     justify-content: space-evenly;
+}
+
+.sweettrend{
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+
+     border:0.1px solid  #FF033E;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* padding-left: 30px; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+   height: 50px;
+   width: 200px;
+  
+  margin-left: 35px;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+.anchortagofsweet:hover {
+  text-decoration: none;
+}
+
+.anchortagofsweet .sweet {
+  display: block; 
+  margin-bottom: 25px;
+  margin-top:  -10px;     
+  margin-left:50px;    
+  text-decoration: none;
+}
+
+
+
+.sweettrend:hover {
+    /* Scale the element up slightly on hover (e.g., 105% of its size) */
+    transform: scale(1.05);
+    
+    /* Add a subtle shadow for a "lifted" 3D effect */
+    box-shadow: 0 8px 16px  #FF033E; 
+    
+    /* You can also change the border color or background if you like */
+    /* border-color: orange; */
+}
+.fastfood-categorey{
+
+    
+    
+      display:flex;
+     justify-content: space-evenly;
+}
+
+/* Add this to your style.css file */
+
+
+
+
+.fastfoodtrend{
+     font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border:0.1px solid #FF033E;
+    text-align: center;
+     border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+   height: 50px;
+   width: 200px;
+  
+  margin-left: 35px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.fastfoodtrend:hover {
+    /* Scale the element up slightly on hover (e.g., 105% of its size) */
+    transform: scale(1.05);
+    
+    /* Add a subtle shadow for a "lifted" 3D effect */
+    box-shadow: 0 8px 16px  #FF033E; 
+    
+    /* You can also change the border color or background if you like */
+    /* border-color: orange; */
+}
+.sweet {
+    color: #151616;
+    margin-left: 50px;
+}
+
+
+.outerrappforfastfood{
+    align-items: start;
+   display: flex;
+}
+
+.blankspace{
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+}
+.sweettextupper{
+    text-align: center;
+    font-family: ' serif, Times New Roman';
+    font-weight: 40px;
+}
+
+.sweet{
+    margin-top:13px;
+}
+
+footer{ 
+      margin-top: 150px;
+      height: 510px;
+      width: 100%;
+       background-color: #546980;
+
+}
+
+.footerContant1{
+    color:  #FF033E;
+    display:  flex;
+    
+}
+
+.footerTag-line{
+    color: #FF033E;
+     font-family: 'Inter', sans-serif;
+    /* font-family: "Georgia", serif; */
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footerTag-linediv{
+    margin-left: 15px;
+}
+.footerTag-linediv p{
+    
+     font-style: italic;
+   color: white;
+   font-size: 20px;
+   font-weight: lighter;
+   text-align: center;
+}
+.lineseprate-footer1{
+    margin-top: 45px;
+    height: 120px;
+    width: 1px;
+    background-color: white;
+    margin-left: 70px;
+}
+.footerdelivary{
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    height: 50px;
+    width:  220px;  
+    background-color: #FF033E;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.personalinfo{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.personalinfo p{
+    margin-left: 54px;
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.personalinfo a{
+    margin-left: 50px;
+}
+.lineseprate-footer2{
+    margin-top: 45px;
+    height: 120px;
+    width: 0.8px;
+    background-color: white;
+    margin-left: 70px;
+}
+.footeranchor-tag {
+  background-image: linear-gradient(
+    to right,
+    #FF033E,
+    #FF033E 50%,
+    #000 50%
+
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:hover {
+ background-position: 0;
+}
+
+.footeranchor-tag:hover::before{
+  width: 100%;
+}
+
+
+.aboutusfooter{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.aboutusfooter p{
+    
+    color: white;
+   
+    font-size: 20px;
+}
+
+.footerform{
+   
+   margin-top: 150px;
+    margin-left: 15px;
+}
+.subscribe-text{
+    color: white;
+     font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.footerContant2{
+    display: flex;
+}
+.footeremail-input{
+    text-align: center;
+    justify-content: center;
+    color:white;
+    margin-top: 40px;
+    height: 35px;
+    width: 300px;
+
+    background-color:  #546980;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.footeremail-input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.subscribe-button{
+    margin-top: 50px;
+  background-color: rgb(236, 233, 233);
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 35px;
+    font-size: 20px;
+    
+    width: 100px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    
+}
+
+
+.subscribe-button{
+  
+  border: 0.1px solid black;
+    /* border: none; */
+  
+    cursor: pointer;
+  color: black;
+    background-color:  #f26989; 
+   
+    transition: background-color 0.3s ease;
+}
+
+
+.subscribe-button:hover {
+    background-color:   #FF033E; 
+    color: white; 
+ 
+
+}
+
+.socialmediahandles{
+    margin-top: 50px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 240px;
+    margin-left: 660px;
+    height: 70px;
+    width: 380px;
+   
+}
+.socailmedia{
+    margin-right: 50px;
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.twitterfooter{
+    background-image: url(771367_circle_facebook_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+.instagramefooter{
+    background-image: url(771365_circle_logo_media_network_social_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.facbookfooter{
+     background-image: url(1164349_circle_instagram_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.lastfooterspace{
+    height: 100px;
+    width: 100%;
+    background-color: #fcfbf7;
+}
+
+

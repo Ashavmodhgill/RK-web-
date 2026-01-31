@@ -1,0 +1,845 @@
+*{
+    color: black;
+}
+.navbar{
+    /* position: fixed; 
+  top: 0;  */
+  width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color:#546980;
+}
+.nav-logo{
+    
+    background-image:url(Untitled\ design\ \(1\).png);
+    height: 95%;
+    width: 90px;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+
+}
+
+
+.serach-bar{
+    margin-left: 300px;
+}
+
+.search-box{
+    text-align: center;
+    height: 30px;
+    width:400px;
+    border: 0.5px solid black;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+
+}
+
+.search-button{
+    margin-right: 0%;
+    height: 35px;
+    width:50px;
+    color:black;
+    background-color: #fcfbf7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a {
+  color: white;
+  margin-left: 150px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Smooth transition for the color change */
+}
+
+a:hover {
+  color: #dbdfe3;
+  text-decoration: underline;
+}
+
+.chartpage1{
+    margin-top: 100px;
+    height: 700px;
+    width: 100%;
+    background-color: white;
+
+}
+
+.chart-product-img1{
+     margin-left: 9.5%;
+     justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.say-yes{ 
+    color: #302e2e;
+    font-family: 'Inter', sans-serif;
+    margin-left: 40px;
+    margin-top: 150px;
+   font-size: 40px;
+   font-weight: bolder;
+   
+}
+.to-tagline{
+     color: #FF033E;
+    font-family: 'Inter', sans-serif;
+    margin-left: 80px;
+     font-size: 40px;
+   font-weight: bolder;
+}
+.cravings-tagline{ 
+    margin-left: 70px;
+    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.product1-imag {
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(rallgullaa1.jpg);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product1-imag2{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(KajuKatli_1.webp);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product1-imag3{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(coconut\ barfi.webp);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.product1-imag4{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(chocalate.webp);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+
+.product1-imag5{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(jalebi.jpg);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.product1-imag6{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(milkcake.jpg);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.product1-imag7{
+    margin-bottom: 10px;
+    height: 500px; /* The container height */
+    width: 90%; /* The container width */
+    background-color: white;
+    background-image: url(simple\ barfi.jpg);
+    /* 👇 Use 'contain' to ensure the entire image is visible */
+    background-size: contain; 
+    /* To center the image within the available space */
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.product1-imag8{
+    margin-bottom: 10px;
+    height: 500px; 
+    width: 90%; 
+    background-color: white;
+    background-image: url(gulaaab2.1.webp);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+
+
+.product1-imag-smosa {
+margin-bottom: 10px;
+    height: 500px; 
+    width: 90%; 
+    background-color: white;
+    background-image: url(samosa122.jpeg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.product1-imag-nudles{
+    margin-bottom: 10px;
+    height: 500px; 
+    width: 90%; 
+    background-color: white;
+    background-image: url(nudles.webp);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.product1-imag-burger{
+     margin-bottom: 10px;
+    height: 500px; 
+    width: 90%; 
+    background-color: white;
+    background-image: url(burger2.webp);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.product1-imag-springrolls{
+     margin-bottom: 10px;
+    height: 500px; 
+    width: 90%; 
+    background-color: white;
+    background-image: url(springrole.avif);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.text-belowchart-product{
+    margin-top: 0%;
+    margin-left: 350px;
+}
+.text-belowchart-productwrapper{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.siderating-product{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(253, 253, 104);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.siderating-product h3{
+    margin-top:15px;
+    margin-left:15px;
+}
+
+.siderating-product{
+    margin-left:  500px;
+}
+.chart-pricetext{
+ 
+    margin-left: 450px;
+    height: 60px;
+    width: 200px;
+    background-color: white;
+}
+.chart-ptag-price{
+    margin-top: 0%;
+    color:#FF033E;
+
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* this css is fully regarding hower note */
+.tracking-for-chart{
+    display:flex;
+      justify-content: space-evenly;
+
+}
+
+
+
+.delivery-time{
+  border: 0.4px solid black;
+   border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+ position: relative; 
+text-align: center;
+ height: 60px;
+ width: 200px;
+ /* background-color: aquamarine; */
+}
+.delivery-time P{
+     margin-top:13px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.discount-chart{
+ border: 0.4px solid black;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+ position: relative;
+text-align: center;
+ height: 60px;
+ width: 200px;
+ /* background-color: aquamarine; */
+}
+.discount-chart P{
+     margin-top:13px;
+    font-size: 30px;
+    font-weight: bolder;
+   /* color:#FF033E; */
+}
+
+
+
+.freedelivery-cart {
+  position: relative; 
+   height: 60px;
+    border: 0.4px solid black;
+     border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+ margin-top: 0%;
+ margin-left: 270px;
+ text-align: center;
+ width: 200px;
+  
+}
+
+.freedelivery-cart p{
+    margin-top:13px;
+    font-size: 30px;
+  
+    font-weight: bolder;
+    color: black;
+    
+}
+
+
+.hover-note {
+  /* Positioning the note relative to the parent (.freedelivery-cart) */
+  position: absolute;
+  top: 100%; /* Places the top of the note below the main div */
+  left: 50%;
+  transform: translateX(-50%); 
+  
+  /* Appearance */
+  width: 280px;
+  padding: 15px;
+  background-color: #E9E9E9; /* Blue color for info note */
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 10; 
+
+  /* Hiding mechanism */
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease; 
+}
+
+
+.hover-div-new:hover .hover-note {
+  visibility: visible;
+  opacity: 1;
+  top: calc(100% + 10px); /* Small offset below the div */
+}
+
+/* 🚨 JavaScript Hiding Override */
+.hover-note.hide-note {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* --- Close Button Styling (Reused) --- */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #ff4d4d;
+}
+
+.hover-note p {
+  margin: 0;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.description-about-product{
+    margin-left: 270;
+}
+
+.wrapperfordescription-about-product{
+    height:auto;
+    width: auto;
+    margin-top: 90px;
+    margin-left: 440px;
+}
+
+/*paragragh below the description */
+.read-more-container {
+    background-color: rgb(230, 220, 218);
+  width: 400px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.read-more-text {
+  /* Initial state: Sets a max height and hides overflow */
+  max-height: 80px; /* Adjust this value to control how much text is shown */
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.read-more-text.read-more-active {
+  max-height: 500px; 
+}
+
+.read-more-toggle {
+  background: none;
+  border: none;
+  color: #007bff; /* Standard link/action color */
+  cursor: pointer;
+  padding: 0;
+  font-weight: bold;
+}
+
+.read-more-toggle:hover {
+  text-decoration: underline;
+}
+
+
+
+  /* css for the chart button */
+
+   .button-group-container {
+            margin-left: 630px;
+            width: 500px;
+            display: flex;
+            gap: 10px; /* Space between the two button groups */
+            padding: 20px;
+           /* White background for the whole group */
+            border-radius: 50px; /* Large rounded corners for the outer container */
+            
+        }
+
+        /* Quantity Selector Group (Dark Button) */
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+            background-color: #1a1a1a; /* Dark background */
+            border-radius: 40px; 
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            overflow: hidden; 
+        }
+
+        .quantity-btn {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            appearance: none;
+        }
+
+        .quantity-btn:hover {
+            background-color: #333;
+        }
+
+        .quantity-display {
+              color: white;
+            padding: 10px 15px;
+            min-width: 30px;
+            text-align: center;
+            user-select: none;
+        }
+
+        /* Add to Cart Button (Red Gradient) */
+        .add-to-cart-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: #CC0000; /* Red base color */
+            background-image: linear-gradient(180deg, #E82C2C 0%, #B80000 100%);
+            color: white;
+            border: none;
+            border-radius: 40px; 
+            padding: 10px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            /* Shadow matching the image's slightly glowing/soft effect */
+            box-shadow: 0 4px 10px rgba(204, 0, 0, 0.4); 
+            transition: all 0.2s ease;
+            appearance: none;
+        }
+
+        .add-to-cart-btn:hover {
+            filter: brightness(1.1);
+            box-shadow: 0 6px 15px rgba(204, 0, 0, 0.5); /* Stronger shadow on hover */
+        }
+
+        .add-to-cart-btn:active {
+            transform: scale(0.98);
+        }
+
+        /* SVG Icon Styling for the Plus sign */
+        .add-to-cart-btn svg {
+            width: 24px;
+            height: 24px;
+            stroke: white;
+        }
+
+
+        /* footerpart */
+
+       footer{ 
+      margin-top: 300px;
+      height: 510px;
+      width: 100%;
+       background-color: #546980;
+
+}
+
+.footerContant1{
+    color:  #FF033E;
+    display:  flex;
+    
+}
+
+.footerTag-line{
+    color: #FF033E;
+     font-family: 'Inter', sans-serif;
+    /* font-family: "Georgia", serif; */
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footerTag-linediv{
+    margin-left: 15px;
+}
+.footerTag-linediv p{
+    
+     font-style: italic;
+   color: white;
+   font-size: 20px;
+   font-weight: lighter;
+   text-align: center;
+}
+.lineseprate-footer1{
+    margin-top: 45px;
+    height: 120px;
+    width: 1px;
+    background-color: white;
+    margin-left: 70px;
+}
+.footerdelivary{
+    color: white;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    height: 50px;
+    width:  220px;  
+    background-color: #FF033E;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.personalinfo{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.personalinfo p{
+    margin-left: 54px;
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.personalinfo a{
+    margin-left: 50px;
+}
+.lineseprate-footer2{
+    margin-top: 45px;
+    height: 120px;
+    width: 0.8px;
+    background-color: white;
+    margin-left: 70px;
+}
+.footeranchor-tag {
+  background-image: linear-gradient(
+    to right,
+    #FF033E,
+    #FF033E 50%,
+    #000 50%
+
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footeranchor-tag:hover {
+ background-position: 0;
+}
+
+.footeranchor-tag:hover::before{
+  width: 100%;
+}
+
+
+.aboutusfooter{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.aboutusfooter p{
+    
+    color: white;
+   
+    font-size: 20px;
+}
+
+.footerform{
+   
+   margin-top: 150px;
+    margin-left: 15px;
+}
+.subscribe-text{
+    color: white;
+     font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.footerContant2{
+    display: flex;
+}
+.footeremail-input{
+    text-align: center;
+    justify-content: center;
+    color:white;
+    margin-top: 40px;
+    height: 35px;
+    width: 300px;
+
+    background-color:  #546980;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.footeremail-input::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.subscribe-button{
+    margin-top: 50px;
+  background-color: rgb(236, 233, 233);
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 35px;
+    font-size: 20px;
+    
+    width: 100px;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    
+}
+
+
+.subscribe-button{
+  
+  border: 0.1px solid black;
+    /* border: none; */
+  
+    cursor: pointer;
+  color: black;
+    background-color:  #f26989; 
+   
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color:   #FF033E; 
+    color: white; 
+ 
+
+}
+
+.socialmediahandles{
+    margin-top: 50px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 240px;
+    margin-left: 660px;
+    height: 70px;
+    width: 380px;
+   
+}
+.socailmedia{
+    margin-right: 50px;
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.twitterfooter{
+    background-image: url(771367_circle_facebook_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+.instagramefooter{
+    background-image: url(771365_circle_logo_media_network_social_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.facbookfooter{
+     background-image: url(1164349_circle_instagram_logo_media_network_icon.png);
+        background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.lastfooterspace{
+    height: 100px;
+    width: 100%;
+    background-color: #fcfbf7;
+}
+
+
