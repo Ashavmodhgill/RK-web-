@@ -1,9 +1,11 @@
 import Repository from "./crud-repository.js";
+import Product from "../models/prduct.js";
+
 
 class ProductRepository extends Repository{
-    constructor(model) {
-        super(model)
-    }
+  constructor() {
+    super(Product);
+  }
     async findByCategory(category){
        try {
         const response = await this.model.find({category})

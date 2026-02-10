@@ -1,5 +1,5 @@
 import {ProductRepository} from '../repository/index.js';
- import Product from '../models/prduct.js';
+ 
 
 class ProductService{
     constructor(){

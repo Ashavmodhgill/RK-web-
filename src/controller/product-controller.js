@@ -12,11 +12,12 @@ export const createProduct = async (req, res) => {
         error: {}
       });
     } catch (error) { 
+        console.error('ProductController.createProduct Error:', error);
          return res.status(500).json({
         success: false,
         message: 'something went wrong in product controller',
         data:{},
-        err: error
+        err: error.message || error
     });
     }
 }
@@ -31,11 +32,12 @@ export const getAllProduct = async (req,res) => {
         error: {}
       });
     } catch (error) {
+        console.error('ProductController.getAllProduct Error:', error);
         return res.status(500).json({
         success: false,
         message: 'something went wrong in product controller',
         data:{},
-        err: error
+        err: error.message || error
     });
     }
     
@@ -51,11 +53,12 @@ export const getProductById = async (req,res)  => {
             error: {}
         });
     } catch (error) {
+        console.error('ProductController.getProductById Error:', error);
         return res.status(500).json({
             success: false,
             message: 'something went wrong in product controller',
             data:{},
-            err: error
+            err: error.message || error
         });
     }
 
@@ -71,11 +74,12 @@ export const findProductsByCategory = async (req,res) => {
             error: {}
         });
     } catch (error) {
+        console.error('ProductController.findProductsByCategory Error:', error);
          return res.status(500).json({
             success: false,
             message: 'something went wrong in product controller',
             data:{},
-            err: error
+            err: error.message || error
         });
     }
 }
@@ -90,11 +94,12 @@ export const searchProductsByName = async (req,res) => {
             error: {}
         });
     } catch (error) {
+        console.error('ProductController.searchProductsByName Error:', error);
         return res.status(500).json({
             success: false,
             message: 'something went wrong in product controller',
             data:{},
-            err: error
+            err: error.message || error
         });
     }
 }
@@ -108,11 +113,12 @@ export const searchProductsByName = async (req,res) => {
             error: {}
         });
     } catch (error) {
+        console.error('ProductController.updateProductStock Error:', error);
         return res.status(500).json({
             success: false,
             message: 'something went wrong in product controller',
             data:{},
-            err: error
+            err: error.message || error
         });
     }
  }
