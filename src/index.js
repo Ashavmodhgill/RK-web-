@@ -1,12 +1,16 @@
 import express from 'express'
 import {connect} from '../src/config/database.js'
 import bodyParser from 'body-parser';
-
+import apiroutes from './routes/V1/index.js';
+import passport from 'passport';
+import { passportAuth } from './config/jwt-middleware.js';
+  passportAuth (passport);
 
 const app = express();
  app.use(bodyParser.json());
  app.use(bodyParser.urlencoded({ extended: true}));
-
+ app.use(passport.initialize());
+ app.use('/api/v1', apiroutes)
  
 app.listen(3003, async()=>{
 console.log("server started");

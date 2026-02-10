@@ -4,35 +4,35 @@ import jwt from "jsonwebtoken";
 
 const userSchema = new mongoose.Schema({
     name: {
-        type: string,
+        type: String,
         required: true,
     },
     email: {
-        type: string,
+        type: String,
         required: true,
         unique: true,
     },
     password: {
-        type: string,
+        type: String,
         required: true
     }
 }, {timestamps: true});
 
 // this is bycrypt we are encrypting the password  for your understanding
-UserSchema.pre('save', function (next){
+userSchema.pre('save', async function(){
     const user = this;
+    if (!user.isModified('password')) return;
     const SALT = bcrypt.genSaltSync(9);
     const encryptedPassword = bcrypt.hashSync(user.password,SALT);
     user.password= encryptedPassword;
-    next();
 
 });
 
-UserSchema.methods.comparePassword = function compare(password){
+userSchema.methods.comparePassword = function compare(password){
     return bcrypt.compareSync(password, this.password);
 }
 
-UserSchema.methods.genJWT = function generate(){
+userSchema.methods.genJWT = function generate(){
      return jwt.sign({id: this.id, email: this.email}, 'twitter_secret_key', {
         expiresIn: '1h'
      })

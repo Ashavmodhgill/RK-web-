@@ -1,4 +1,4 @@
-import UserService from "../service.js/User-service.js";
+import UserService from "../service/User-service.js";
  const userService = new UserService();
 
 export const signup = async (req, res) => {
@@ -16,11 +16,12 @@ export const signup = async (req, res) => {
 
         });
      } catch (error) {
+        console.log("Signup Error:", error);
         return res.status(500).json({
             sucess: false,
             message: "something went wrong in the controler",
             data: {},
-            err: error
+            err: error.message || error
         })
      }
 }
